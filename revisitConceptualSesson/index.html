@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css file -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu-container">
+         <h3>Budget: <span class="price-color" id="budget">2500</span>$</h3>
+        
+         <h3>Cart: <span class="price-color" id="cart">0</span></h3>
+         <h3>Left <span class="price-color" id="left">6</span></h3>
+    </div>
+
+    <div class="main-container">
+           
+         <div class="players-container">
+                <div class="player-btn">
+                   <h5>Tamim iqbal</h5>
+                   <h5>Price: <span>300</span>$</h5>
+                   <h5>Catagory : <span>Bat</span></h5>
+                   <button class="add-btn">Add to cart</button>
+                </div>
+                <div class="player-btn">
+                   <h5> iqbal</h5>
+                   <h5>Price: <span>300</span>$</h5>
+                   <h5>Catagory : <span>Bat</span></h5>
+                   <button class="add-btn">Add to cart</button>
+                </div>
+                <div class="player-btn">
+                   <h5>Tamim</h5>
+                   <h5>Price: <span>300</span>$</h5>
+                   <h5>Catagory : <span>Bat</span></h5>
+                   <button class="add-btn">Add to cart</button>
+                </div>
+                <div class="player-btn">
+                   <h5>Tami</h5>
+                   <h5>Price: <span>300</span>$</h5>
+                   <h5>Catagory : <span>Bat</span></h5>
+                   <button class="add-btn">Add to cart</button>
+                </div>
+                <div class="player-btn">
+                   <h5>Taiq</h5>
+                   <h5>Price: <span>300</span>$</h5>
+                   <h5>Catagory : <span>Bat</span></h5>
+                   <button class="add-btn">Add to cart</button>
+                </div>
+                <div class="player-btn">
+                   <h5>Tamiiqba</h5>
+                   <h5>Price: <span>300</span>$</h5>
+                   <h5>Catagory : <span>Bat</span></h5>
+                   <button class="add-btn">Add to cart</button>
+                </div>
+                <div class="player-btn">
+                   <h5>Tim bal</h5>
+                   <h5>Price: <span>300</span>$</h5>
+                   <h5>Catagory : <span>Bat</span></h5>
+                   <button class="add-btn">Add to cart</button>
+                </div>
+                <div class="player-btn">
+                   <h5>im bal</h5>
+                   <h5>Price: <span>300</span>$</h5>
+                   <h5>Catagory : <span>Bat</span></h5>
+                   <button class="add-btn">Add to cart</button>
+                </div>
+                <div class="player-btn">
+                   <h5>Tam al</h5>
+                   <h5>Price: <span>300</span>$</h5>
+                   <h5>Catagory : <span>Bat</span></h5>
+                   <button class="add-btn">Add to cart</button>
+                </div>
+         </div>
+
+         <div class="cart-container">
+            <h2>My Cart</h2>
+            <hr/>
+            <div class="selected-players">
+               <div class="pp">
+                  
+               </div>
+               <div class="pp">
+                    <div class="name">Name</div>
+                    <div class="price">Price</div>
+                    <div class="Catagory">Catagory</div>
+               </div>
+              
+
+                <div class="selected-players-container"></div>
+                <hr/>
+                <h3 class="padding">Total Cost : <span id="total-cost">0</span>$ </h3>
+                <hr/>
+                <div class="coupen-code">
+                     <input type="text" id="coupen-code" placeholder="Coupen Code" />
+                     <button id="apply-btn" class="apply-btn" onclick="updateGrandTotal('add-btn')">Apply</button>
+                </div>
+                <hr/>
+                <h3 class="padding">Grand Total: <span id="grand-total">0</span>$</h3>
+            </div>
+         </div>
+    </div>
+
+    <!-- java script file -->
+    <script src="function.js"></script> 
+    <script src="callFunction.js"></script>
+</body>
+</html>
