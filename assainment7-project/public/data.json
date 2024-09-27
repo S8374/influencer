@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "name": "Stylish T-shirt",
+      "title": "Men's Classic T-shirt",
+      "img": "https://th.bing.com/th/id/OIP.yxK4nAtnl5NRRlMHsy7n6gAAAA?w=184&h=264&c=7&r=0&o=5&pid=1.7",
+      "description": "A comfortable and stylish T-shirt made of 100% cotton.",
+      "category": "Clothing",
+      "price": 19.99
+    },
+    {
+      "id": 2,
+      "name": "Elegant Watch",
+      "title": "Luxury Leather Strap Watch",
+      "img": "https://th.bing.com/th/id/OIF.iZuAIEPns0h9zI1UyHCWCA?w=184&h=184&c=7&r=0&o=5&pid=1.7",
+      "description": "An elegant wristwatch with a leather strap.",
+      "category": "Accessories",
+      "price": 149.99
+    },
+    {
+      "id": 3,
+      "name": "Wireless Headphones",
+      "title": "Premium Noise-Cancelling Headphones",
+      "img": "https://th.bing.com/th?id=OIF.KkCfM3ebD0Pe4rXSN5c%2f%2fQ&w=184&h=184&c=7&r=0&o=5&pid=1.7",
+      "description": "Noise-cancelling wireless headphones with high-quality sound.",
+      "category": "Electronics",
+      "price": 89.99
+    },
+    {
+      "id": 4,
+      "name": "Running Shoes",
+      "title": "Men's Running Shoes",
+      "img": "https://th.bing.com/th/id/OIF.BgFqp1rbEf51SiIGUfp2jw?w=184&h=184&c=7&r=0&o=5&pid=1.7",
+      "description": "Lightweight running shoes designed for comfort and speed.",
+      "category": "Footwear",
+      "price": 59.99
+    },
+    {
+      "id": 5,
+      "name": "Backpack",
+      "title": "Waterproof Hiking Backpack",
+      "img": "https://th.bing.com/th?id=OIF.5bKtm4oyxc5fbhOfcS%2f7Jw&w=184&h=184&c=7&r=0&o=5&pid=1.7",
+      "description": "A durable backpack perfect for hiking and outdoor adventures.",
+      "category": "Bags",
+      "price": 39.99
+    },
+    {
+      "id": 6,
+      "name": "Sunglasses",
+      "title": "Polarized Sunglasses",
+      "img": "https://th.bing.com/th?id=OIF.b2c7FSoCBLO0LwS9JppI%2fg&w=184&h=245&c=7&r=0&o=5&pid=1.7",
+      "description": "Stylish polarized sunglasses for UV protection.",
+      "category": "Accessories",
+      "price": 29.99
+    }
+  ]
+  

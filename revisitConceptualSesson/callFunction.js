@@ -30,9 +30,7 @@ for(const btn of addBtn) {
             const left = getConvertedValue('left') ;
             document.getElementById('left').innerText = left - 1;
 
-
-
-
+            
         const div = document.createElement('div')
         div.classList.add('pp')
 
